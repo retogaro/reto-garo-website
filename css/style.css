@@ -1,7 +1,4 @@
-body {
-  background-color: #252525;
-}
-
-body {
-  color: white;
+* {
+  padding: 0;
+  margin: 0;
 }
