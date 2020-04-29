@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap");
 
 section#hero {
   font-family: "Dancing Script", cursive;
+}
+
+section#blurb {
+  font-family: "Amiri", serif;
+}
+
+section#skills {
+  font-family: "Amiri", serif;
+}
+
+section#contact {
+  font-family: "Amiri", serif;
 }
