@@ -1,4 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+section#hero {
+  font-family: "Dancing Script", cursive;
 }
