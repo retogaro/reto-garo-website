@@ -1,17 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
+section#nav {
+  font-family: "Oxygen", sans-serif;
+}
+
 section#hero {
   font-family: "Oxygen", sans-serif;
 }
 
-section#blurb {
+section#about {
   font-family: "Oxygen", sans-serif;
 }
 
-section#skills {
+section#portfolio {
+  font-family: "Oxygen", sans-serif;
+}
+
+section#services {
   font-family: "Oxygen", sans-serif;
 }
 
 section#contact {
+  font-family: "Oxygen", sans-serif;
+}
+
+section#footer {
   font-family: "Oxygen", sans-serif;
 }
