@@ -6,23 +6,56 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
-section#nav {
+section#header {
+  background-color: #ffed74;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#hero {
+  background-color: #ffed74;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#about {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#portfolio {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#services {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#contact {
+  background-color: #ffe2b8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+article left {
+  background-color: #e89c6c;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+article right {
+  background-color: #e89c6c;
+  border: 1px black solid;
+  padding: 20px;
 }
 
 section#footer {
+  background-color: #ff957e;
+  border: 1px black solid;
+  padding: 20px;
 }
