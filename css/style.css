@@ -40,6 +40,12 @@ ul.right li {
 }
 
 section#hero {
+  height: 85vh;
+}
+
+#hero h2 {
+  font-size: 34px;
+  text-align: end;
 }
 
 section#about {
