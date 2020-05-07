@@ -40,7 +40,7 @@ ul.right li {
 }
 
 section#hero {
-  height: 85vh;
+  height: 75vh;
 }
 #hero h1 {
   margin-right: 80px;
@@ -64,6 +64,12 @@ section#hero {
 
 section#about {
   display: flex;
+  height: 75vh;
+}
+
+#about h2 {
+  font-size: 45px;
+  font-weight: 800;
 }
 
 .vl {
