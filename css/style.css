@@ -21,7 +21,7 @@ img {
 ul.left {
   display: flex;
   list-style: none;
-  margin: 22px;
+  margin: 28px;
   padding: 0;
 }
 
@@ -32,26 +32,32 @@ ul.left li {
 ul.right {
   list-style: none;
   display: flex;
-  margin: 22px;
+  margin: 28px;
 }
 
 ul.right li {
-  padding: 0px 12px;
+  padding: 0px 15px;
 }
 
 section#hero {
   height: 85vh;
 }
+#hero h1,
+h2 {
+  margin-right: 60px;
+}
 
 #hero h2 {
   font-size: 34px;
   text-align: end;
+  margin-top: 170px;
 }
 
 #hero h1 {
   font-size: 137px;
   font-weight: bold;
   text-align: end;
+  margin-top: 84px;
 }
 
 section#about {
