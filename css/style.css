@@ -63,6 +63,12 @@ section#hero {
 }
 
 section#about {
+  display: grid;
+}
+
+#about.vl {
+  border-left: 4px solid white;
+  height: 500px;
 }
 
 section#portfolio {
