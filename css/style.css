@@ -63,12 +63,20 @@ section#hero {
 }
 
 section#about {
-  display: grid;
+  display: flex;
 }
 
 #about.vl {
   border-left: 4px solid white;
   height: 500px;
+}
+.about-left {
+  text-align: right;
+  padding: 10px 20px 0px 400px;
+}
+
+.services-right {
+  padding: 50px 50px;
 }
 
 section#portfolio {
