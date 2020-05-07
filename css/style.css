@@ -8,19 +8,20 @@ body {
 
 section#header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
   width: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: fixed;
+  left: 50%;
 }
 
 ul.left {
   display: flex;
   list-style: none;
-  margin: 0px 16px;
+  margin: 22px;
   padding: 0;
 }
 
@@ -31,11 +32,11 @@ ul.left li {
 ul.right {
   list-style: none;
   display: flex;
-  float: right;
+  margin: 22px;
 }
 
 ul.right li {
-  padding: 5px;
+  padding: 0px 12px;
 }
 
 section#hero {
