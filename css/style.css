@@ -14,7 +14,7 @@ section#header {
 
 img {
   width: 30px;
-  position: fixed;
+  position: absolute;
   left: 50%;
 }
 
@@ -42,9 +42,11 @@ ul.right li {
 section#hero {
   height: 85vh;
 }
-#hero h1,
-h2 {
-  margin-right: 60px;
+#hero h1 {
+  margin-right: 80px;
+}
+#hero h2 {
+  margin-right: 80px;
 }
 
 #hero h2 {
@@ -55,7 +57,7 @@ h2 {
 
 #hero h1 {
   font-size: 137px;
-  font-weight: bold;
+  font-weight: 1000;
   text-align: end;
   margin-top: 84px;
 }
