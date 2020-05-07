@@ -13,6 +13,25 @@ img {
   margin-right: auto;
 }
 
+ul.left {
+  display: flex;
+  list-style: none;
+}
+
+ul.left li {
+  padding: 5px;
+}
+
+ul.right {
+  list-style: none;
+  display: flex;
+  float: right;
+}
+
+ul.right li {
+  padding: 5px;
+}
+
 section#header {
 }
 
