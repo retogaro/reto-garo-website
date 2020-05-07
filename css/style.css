@@ -92,13 +92,15 @@ section#services {
 }
 
 section#contact {
+  display: flex;
+}
+
+article left ul {
+  display: flex;
 }
 
 article left {
 }
 
 article right {
-}
-
-section#footer {
 }
