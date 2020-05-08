@@ -12,7 +12,7 @@ body {
   align-items: center;
 }
 
-img {
+#header img {
   width: 30px;
   position: absolute;
   left: 50%;
@@ -102,9 +102,6 @@ ul.right li {
   padding: 20px 0px;
 }
 
-#portfolio {
-}
-
 #Portfolio h1 {
   font-size: 137px;
   letter-spacing: 4px;
@@ -114,7 +111,6 @@ section#services {
 }
 
 section#contact {
-  display: flex;
 }
 
 .icons {
