@@ -6,7 +6,7 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
-section#header {
+#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,7 +40,7 @@ ul.right li {
   list-style: none;
 }
 
-section#hero {
+#hero {
   height: 75vh;
 }
 #hero h1 {
@@ -63,7 +63,7 @@ section#hero {
   margin-top: 84px;
 }
 
-section#about {
+#about {
   display: flex;
   height: 75vh;
 }
@@ -81,6 +81,7 @@ section#about {
   text-align: right;
   width: 450px;
   padding: 50px 15px;
+  margin-left: 310px;
 }
 
 .about-left p {
@@ -111,7 +112,7 @@ section#contact {
   display: flex;
 }
 
-div icon {
+.icons {
   display: flex;
 }
 
