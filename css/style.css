@@ -110,32 +110,47 @@ ul.right li {
 section#services {
 }
 
-section#contact {
+section#contacts {
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: 1fr 2px 1fr;
+  grid-template-areas: "header header header" "left line right";
 }
 
-#contact h1 {
+#contacts h1 {
+  grid-area: header;
   text-align: center;
   font-size: 45px;
   font-weight: 700;
 }
 
-.icons {
-  display: flex;
+#social {
+  grid-area: left;
 }
 
-.icons img {
+#line {
+  grid-area: line;
+  background: white;
+}
+
+#social img {
   width: 50px;
   height: 50px;
 }
 
-.vlcontact {
+#line {
   display: flex;
   border-left: 4px solid white;
   height: 350px;
 }
 
-.phone {
-  display: flex;
+#contact {
+  grid-area: right;
+}
+
+#contact img {
+  width: 50px;
+  height: 50px;
 }
 
 #footer {
