@@ -104,15 +104,18 @@ ul.right li {
 
 #portfolio h1 {
   font-size: 137px;
+  font-weight: 900;
   letter-spacing: 4px;
 }
 
 #services h1 {
   font-size: 137px;
   font-weight: 900;
+  letter-spacing: 4px;
+  margin: 55px 0px 55px 200px;
 }
 
-section#contacts {
+#contacts {
   display: grid;
   grid-template-rows: 170px auto;
   grid-template-columns: 1fr 2px 1fr;
