@@ -89,11 +89,16 @@ section#about {
 }
 
 .services-right {
-  padding: 50px 50px;
+  padding: 100px 15px;
 }
 
 .services-right ul {
   font-size: 30px;
+}
+
+.services-right li {
+  list-style: none;
+  padding: 20px 0px;
 }
 
 section#portfolio {
