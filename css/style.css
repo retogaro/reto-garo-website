@@ -73,7 +73,7 @@ ul.right li {
   font-weight: 800;
 }
 
-.vl {
+.vlabout {
   border-left: 4px solid white;
   height: 700px;
 }
@@ -111,14 +111,14 @@ section#services {
 }
 
 section#contact {
+  display: flex;
 }
 
 .icons {
   display: flex;
 }
 
-article left {
-}
-
-article right {
+.vlcontact {
+  border-left: 4px solid white;
+  height: 350px;
 }
