@@ -65,7 +65,7 @@ ul.right li {
 
 #about {
   display: flex;
-  height: 75vh;
+  height: 95vh;
 }
 
 #about h2 {
@@ -102,7 +102,12 @@ ul.right li {
   padding: 20px 0px;
 }
 
-section#portfolio {
+#portfolio {
+}
+
+#Portfolio h1 {
+  font-size: 137px;
+  letter-spacing: 4px;
 }
 
 section#services {
