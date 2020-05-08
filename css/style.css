@@ -112,9 +112,12 @@ section#services {
 
 section#contacts {
   display: grid;
-  grid-template-rows: 50px auto;
+  grid-template-rows: 170px auto;
   grid-template-columns: 1fr 2px 1fr;
+  justify-items: center;
+  align-items: center;
   grid-template-areas: "header header header" "left line right";
+  margin-bottom: 60px;
 }
 
 #contacts h1 {
@@ -136,6 +139,7 @@ section#contacts {
 #social img {
   width: 50px;
   height: 50px;
+  padding: 0px 13px;
 }
 
 #line {
@@ -146,6 +150,12 @@ section#contacts {
 
 #contact {
   grid-area: right;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 24px;
+  width: 310px;
 }
 
 #contact img {
