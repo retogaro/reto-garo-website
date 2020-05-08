@@ -37,6 +37,7 @@ ul.right {
 
 ul.right li {
   padding: 0px 15px;
+  list-style: none;
 }
 
 section#hero {
@@ -74,15 +75,25 @@ section#about {
 
 .vl {
   border-left: 4px solid white;
-  height: 500px;
+  height: 700px;
 }
 .about-left {
   text-align: right;
-  padding: 10px 20px 0px 400px;
+  width: 600px;
+  padding: 50px 15px;
+}
+
+.about-left p {
+  line-height: 160%;
+  font-size: 30px;
 }
 
 .services-right {
   padding: 50px 50px;
+}
+
+.services-right ul {
+  font-size: 30px;
 }
 
 section#portfolio {
@@ -95,7 +106,7 @@ section#contact {
   display: flex;
 }
 
-article left ul {
+div icon {
   display: flex;
 }
 
