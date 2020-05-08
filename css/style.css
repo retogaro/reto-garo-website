@@ -102,12 +102,14 @@ ul.right li {
   padding: 20px 0px;
 }
 
-#Portfolio h1 {
+#portfolio h1 {
   font-size: 137px;
   letter-spacing: 4px;
 }
 
-section#services {
+#services h1 {
+  font-size: 137px;
+  font-weight: 900;
 }
 
 section#contacts {
