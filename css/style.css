@@ -107,6 +107,14 @@ ul.right li {
   font-weight: 900;
   letter-spacing: 4px;
 }
+.portfolios {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
 
 #services h1 {
   font-size: 137px;
