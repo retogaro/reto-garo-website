@@ -116,11 +116,17 @@ ul.right li {
   grid-template-rows: auto;
 }
 
+#services {
+  display: grid;
+  gridtemplate rows: 99% 1%;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-areas: "services services . " "line . line";
+}
+
 #services h1 {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
-  margin: 55px 0px 55px 200px;
 }
 
 #contacts {
