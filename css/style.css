@@ -117,14 +117,14 @@ ul.right li {
 }
 
 #services {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
 }
 
 #services h1 {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
+  border-top: 4px solid white;
+  padding-top: 30px;
 }
 
 #contacts {
