@@ -102,11 +102,59 @@ ul.right li {
   padding: 20px 0px;
 }
 
+/* <section id="portfolio">
+  <h1>Portfolio</h1>
+
+  <div>
+    <h2>1 Weekendwarrior</h2>
+    <div id="line"></div>
+    <img src="" alt="" />
+  </div>
+
+  <div>
+    <h2>2 Creative wedding</h2>
+    <div id="line"></div>
+    <img src="" alt="" />
+  </div>
+</section> */
+
 #portfolio h1 {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
 }
+
+#portfolio > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio > div.reverse {
+  flex-direction: row-reverse;
+}
+
+#portfolio h2 {
+  color: white;
+  width: 200px;
+}
+
+#portfolio h2 small {
+  font-size: 50%;
+}
+
+#portfolio #line {
+  background: white;
+  width: 2px;
+  height: 200px;
+  margin: 0px 50px;
+}
+
+#portfolio img {
+  width: 300px;
+  height: auto;
+}
+
 .portfolios {
   display: grid;
   grid-auto-columns: 1fr;
