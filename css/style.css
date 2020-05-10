@@ -116,13 +116,21 @@ ul.right li {
   grid-template-rows: auto;
 }
 
-#services {
+.topline hr {
+  height: 1px;
+  width: 1000px;
+  background: white;
 }
 
 #services h1 {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
+}
+
+.bottomline {
+  display: flex;
+  width: 400px;
 }
 
 #contacts {
