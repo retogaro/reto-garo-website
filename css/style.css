@@ -122,12 +122,14 @@ ul.right li {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
+  margin: 0px 0px 50px 80px;
 }
 
 #portfolio > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 50px;
 }
 
 #portfolio > div.reverse {
@@ -145,13 +147,12 @@ ul.right li {
 
 #portfolio #line {
   background: white;
-  width: 2px;
-  height: 200px;
+  height: 360px;
   margin: 0px 50px;
 }
 
 #portfolio img {
-  width: 300px;
+  width: 420px;
   height: auto;
 }
 
@@ -164,21 +165,27 @@ ul.right li {
   grid-template-rows: auto;
 }
 
-.topline hr {
-  height: 1px;
+#services .topline hr {
+  margin-top: 80px;
+  margin-bottom: 55px;
   width: 1000px;
-  background: white;
 }
 
 #services h1 {
   font-size: 137px;
   font-weight: 900;
   letter-spacing: 4px;
+  margin: 0px 0px 0px 250px;
 }
 
-.bottomline {
+#services .bottomline {
   display: flex;
-  width: 400px;
+  margin-top: 40px;
+}
+
+#services .bottomline hr {
+  width: 294px;
+  margin-top: 35px;
 }
 
 #contacts {
