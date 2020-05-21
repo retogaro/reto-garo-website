@@ -114,14 +114,21 @@ ul.right li {
   margin-left: 23%;
 }
 
-@media only screen and (min-width: 710px) {
+@media only screen and (min-width: 1201px) {
   .about-left p {
     line-height: 160%;
     font-size: 1.875em;
   }
 }
 
-@media only screen and (max-width: 710px) {
+@media only screen and (min-width: 870px) and (max-width: 1200px) {
+  .about-left p {
+    line-height: 160%;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 869px) {
   .about-left p {
     line-height: 160%;
     font-size: 1.3em;
@@ -132,8 +139,22 @@ ul.right li {
   padding: 7% 1%;
 }
 
-.services-right ul {
-  font-size: 1.875em;
+@media only screen and (min-width: 1201px) {
+  .services-right ul {
+    font-size: 1.875em;
+  }
+}
+
+@media only screen and (min-width: 870px) and (max-width: 1200px) {
+  .services-right ul {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 869px) {
+  .services-right ul {
+    font-size: 1.3em;
+  }
 }
 
 .services-right li {
