@@ -21,22 +21,22 @@ body {
 ul.left {
   display: flex;
   list-style: none;
-  margin: 28px;
+  margin: 1.5%;
   padding: 0;
 }
 
 ul.left li {
-  padding: 5px;
+  padding: 10%;
 }
 
 ul.right {
   list-style: none;
   display: flex;
-  margin: 28px;
+  margin: 1.5%;
 }
 
 ul.right li {
-  padding: 0px 15px;
+  padding: 0% 10%;
   list-style: none;
 }
 
@@ -44,16 +44,16 @@ ul.right li {
   height: 75vh;
 }
 #hero h1 {
-  margin-right: 80px;
+  margin-right: 5%;
 }
 #hero h2 {
-  margin-right: 80px;
+  margin-right: 5%;
 }
 
 #hero h2 {
   font-size: 2.125em;
   text-align: end;
-  margin-top: 170px;
+  margin-top: 15%;
 }
 
 #hero h1 {
@@ -75,12 +75,12 @@ ul.right li {
 
 .vlabout {
   border-left: 4px solid white;
-  height: 700px;
+  height: 90%;
 }
 .about-left {
   text-align: right;
   width: 37%;
-  padding: 50px 15px;
+  padding: 4% 1%;
   margin-left: 23%;
 }
 
@@ -90,7 +90,7 @@ ul.right li {
 }
 
 .services-right {
-  padding: 100px 15px;
+  padding: 7% 1%;
 }
 
 .services-right ul {
@@ -99,21 +99,21 @@ ul.right li {
 
 .services-right li {
   list-style: none;
-  padding: 20px 0px;
+  padding: 5% 0%;
 }
 
 #portfolio h1 {
   font-size: 8.5625em;
   font-weight: 900;
   letter-spacing: 4px;
-  margin: 0px 0px 100px 80px;
+  margin: 0% 0% 7% 10%;
 }
 
 #portfolio > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px;
+  margin: 4%;
 }
 
 #portfolio > div.reverse {
@@ -122,7 +122,7 @@ ul.right li {
 
 #portfolio h2 {
   color: white;
-  width: 200px;
+  width: 19%;
 }
 
 #portfolio h2 small {
@@ -132,11 +132,11 @@ ul.right li {
 #portfolio #line {
   background: white;
   height: 360px;
-  margin: 0px 50px;
+  margin: 0% 4%;
 }
 
 #portfolio img {
-  width: 420px;
+  width: 40%;
   height: auto;
 }
 
@@ -150,37 +150,38 @@ ul.right li {
 }
 
 #services .topline hr {
-  margin-top: 115px;
-  margin-bottom: 55px;
-  width: 1000px;
+  margin-top: 12%;
+  margin-bottom: 5%;
+  width: 70%;
 }
 
 #services h1 {
   font-size: 8.5625em;
   font-weight: 900;
   letter-spacing: 4px;
-  margin: 0px 0px 0px 250px;
+  margin: 0% 41% 0% 21%;
 }
 
 #services .bottomline {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 8%;
 }
 
 #services .bottomline hr {
-  width: 294px;
-  margin-top: 35px;
+  width: 20%;
+  margin-top: 2%;
 }
 
 #contacts {
   display: grid;
-  grid-template-rows: 170px auto;
+  grid-template-rows: 35% auto;
   grid-template-columns: 1fr 2px 1fr;
   justify-items: center;
   align-items: center;
   grid-template-areas: "header header header" "left line right";
-  margin-bottom: 60px;
+  margin-bottom: 10%;
 }
 
 #contacts h1 {
