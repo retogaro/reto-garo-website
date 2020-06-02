@@ -8,18 +8,6 @@ body {
   font-family: "Oxygen", sans-serif;
 }
 
-#header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#header img {
-  width: 2.3%;
-  position: absolute;
-  left: 50%;
-}
-
 #menuToggle {
   display: block;
   position: relative;
