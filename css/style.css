@@ -154,6 +154,13 @@ body {
   }
 }
 
+#hero img {
+  width: 2.5em;
+  margin-left: 8%;
+  position: relative;
+  bottom: 110px;
+}
+
 #about {
   display: flex;
   height: 95vh;
