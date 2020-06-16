@@ -5,6 +5,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Reto Garo</title>
+    <script src="my-script.js"></script>
   </head>
 
   <body>
@@ -19,7 +20,7 @@
             <ul id="menu">
               <li><a href="/">Home</a></li>
               <li><a href="#">Services</a></li>
-              <li><a href="#contacts">Contact</a></li>
+              <li><a href="#contacts">Connect</a></li>
             </ul>
           </div>
         </nav>
@@ -77,8 +78,17 @@
           <hr />
         </div>
         <div class="servicesheading">
-          <h1><a href="#">Services</a></h1>
-          <img src="public/images/right-arrow.jpg" alt="right-arrow" />
+          <button>Services</button>
+          <div class="modal">
+            <div class="modal-content">
+              <span class="close-button">×</span>
+              <h1>Hello Jan, Check out this modal</h1>
+            </div>
+          </div>
+
+          <a href="#"
+            ><img src="public/images/right-arrow.jpg" alt="right-arrow"
+          /></a>
         </div>
         <div class="bottomline">
           <hr />
@@ -87,7 +97,7 @@
       </section>
 
       <section id="contacts">
-        <h1>Contact</h1>
+        <h1>Connect</h1>
         <div id="social">
           <a href="https://www.facebook.com/reto.garo" target="_blank"
             ><img src="public/images/facebook.jpg" alt="facebook-icon"

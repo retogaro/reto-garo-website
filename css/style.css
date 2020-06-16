@@ -10,7 +10,7 @@ body {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 50px;
   z-index: 1;
@@ -163,7 +163,7 @@ body {
 
 #about {
   display: flex;
-  height: 95vh;
+  height: 100vh;
 }
 
 #about h2 {
@@ -174,6 +174,7 @@ body {
 .vlabout {
   border-left: 4px solid white;
   height: 90%;
+  margin-top: 3%;
 }
 .about-left {
   text-align: right;
@@ -294,6 +295,7 @@ body {
   width: 70%;
 }
 
+/*only screen?*/
 @media only screen and (min-width: 710px) {
   #services h1 {
     font-size: 8.5625em;
@@ -306,6 +308,53 @@ body {
 #services .servicesheading {
   display: flex;
   align-items: center;
+}
+
+/* #services .servicesheading button {
+  text-decoration: none;
+  color: black;
+} */
+
+#services .modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+#services .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+#services .close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+#services .close-button:hover {
+  background-color: darkgray;
+}
+
+#services .show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
 #services .servicesheading img {
@@ -324,7 +373,7 @@ body {
 #services .bottomline {
   display: flex;
   width: 100%;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-bottom: 8%;
 }
 
