@@ -327,7 +327,16 @@ body {
   transform: scale(1.1);
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
-#services .modal-content {
+
+#services .modal.open {
+  display: block;
+}
+
+#services .modal.close {
+  display: none;
+}
+
+#services .modal .content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -337,7 +346,7 @@ body {
   width: 24rem;
   border-radius: 0.5rem;
 }
-#services .close-button {
+#services button.close {
   float: right;
   width: 1.5rem;
   line-height: 1.5rem;
@@ -346,7 +355,7 @@ body {
   border-radius: 0.25rem;
   background-color: lightgray;
 }
-#services .close-button:hover {
+#services button.close:hover {
   background-color: darkgray;
 }
 
